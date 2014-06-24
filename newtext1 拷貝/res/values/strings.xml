@@ -1,0 +1,21 @@
+<resources>
+
+    <string name="app_name">newtext1</string>
+	<string name="textview_1">顯示</string>
+	<string name="textview_2">Piter</string>
+	<string name="button_1">加號</string>
+	<string name="button_2">減號</string>
+	<string name="button_3">姓名</string>
+	<string name="button_4">原始</string>
+	<string name="edittext_1">請輸入數字</string>
+	<string name="number_3_digit">3位數</string>
+	<string name="number_4_digit">4位數</string>
+	<string name="number_5_digit">5位數</string>
+	<string name="check">檢查</string>
+	<string name="please_input_numbers">請輸入數字</string>
+	<string name="string_error">輸入字數錯誤</string>
+	<string name="string_title">檢查結果</string>
+	<string name="remove">清除資料</string>
+	<string name="starname">歡迎來到猜數字的世界</string>
+	
+</resources>

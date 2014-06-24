@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+	
+	<LinearLayout 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical" >
+    
+	    <TextView
+	     	android:layout_width="wrap_content"
+	     	android:layout_height="wrap_content" 
+	     	android:text="請在下列輸入數字"/> 
+	     	
+	    <EditText 
+	        android:id="@+id/edit_user_input"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:numeric="integer"
+	        android:singleLine="true" />
+	    <TextView 
+	     	android:id="@+id/text_answer"
+	     	android:layout_width="wrap_content"
+	     	android:layout_height="wrap_content" /> 
+     <!-- android:visibility="invisible" --> 
+     	
+     	<TextView 
+	     	android:id="@+id/text_notify_number_digit"
+	     	android:layout_width="wrap_content"
+	     	android:layout_height="wrap_content" />   
+	   
+		<Button 
+	    	android:id="@+id/btn_create_3_number"
+	    	android:layout_width="match_parent"
+	    	android:layout_height="wrap_content"
+	    	android:width="28dp"
+	    	android:text="@string/number_3_digit"
+	    	android:onClick="create_3_number" />
+		<Button 
+	    	android:id="@+id/btn_create_4_number"
+	    	android:layout_width="match_parent"
+	    	android:layout_height="wrap_content"
+	    	android:width="28dp"
+	    	android:text="@string/number_4_digit"
+	    	android:onClick="create_4_number" />
+		<Button 
+	    	android:id="@+id/btn_create_5_number"
+	    	android:layout_width="match_parent"
+	    	android:layout_height="wrap_content"
+	    	android:width="28dp"
+	    	android:text="@string/number_5_digit"
+	    	android:onClick="create_5_number" />
+		<Button 
+	    	android:id="@+id/btn_check"
+	    	android:layout_width="match_parent"
+	    	android:layout_height="wrap_content"
+	    	android:width="28dp"
+	    	android:text="@string/check"
+	    	android:onClick="check" />
+		<Button 
+	    	android:id="@+id/btn_remove"
+	    	android:layout_width="match_parent"
+	    	android:layout_height="wrap_content"
+	    	android:width="28dp"
+	    	android:text="@string/remove"
+	    	android:onClick="clear_input" />
+		
+	</LinearLayout>
+
+	<LinearLayout
+	    android:id="@+id/layout_display"
+	    android:layout_width="wrap_content"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical"
+	    android:layout_marginLeft="20dp" >
+		
+		<TextView
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="@string/string_title" />
+	</LinearLayout>
+
+</LinearLayout>
